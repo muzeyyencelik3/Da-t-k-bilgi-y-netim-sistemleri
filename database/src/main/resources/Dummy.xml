@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.sau.project2.Model.Dummy">
+        <table name="dummy" schema="scott" catalog=""/>
+        <attributes>
+            <basic name="dummy">
+                <column name="DUMMY" nullable="false" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>

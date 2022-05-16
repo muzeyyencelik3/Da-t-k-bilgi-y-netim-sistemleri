@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="https://jakarta.ee/xml/ns/persistence/orm"
+                 version="3.0">
+
+    <entity class="com.sau.project2.Model.Bonus">
+        <table name="bonus" schema="scott" catalog=""/>
+        <attributes>
+            <basic name="ename">
+                <column name="ENAME" nullable="false" length="10"/>
+            </basic>
+            <basic name="job">
+                <column name="JOB" nullable="false" length="9"/>
+            </basic>
+            <basic name="sal">
+                <column name="SAL" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="comm">
+                <column name="COMM" nullable="false" precision="-1"/>
+            </basic>
+            <basic name="id">
+                <column name="id" nullable="false" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
